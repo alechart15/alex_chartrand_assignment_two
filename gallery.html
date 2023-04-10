@@ -8,102 +8,162 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap" rel="stylesheet">
-<link href="assignment-two.css"
+<link href="assignment2.CSS"
 </head>
 
 <body>
     <section class="container-fluid">
-        <nav class="navbar navbar-expand-sm d-flex justify-content-around">
+        <nav class="navbar navbar-expand-sm d-flex justify-content-around text-decoration-underline">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#"><p class=pnav>Home</p></a>
+              <a class="nav-link" href="home.html"><p class=pnav>Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><p class=pnav>Characters</p></a>
+              <a class="nav-link" href="characters.html"><p class=pnav>Characters</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><p class=pnav><mark>Gallery</mark></p></a>
+              <a class="nav-link" href="gallery.html"><p class=pnav><mark>Gallery</mark></p></a>
             </li>
           </ul>
           </nav>
           
-          <h3 class="text-center mt-2"> Color of Evil </h3>
-         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+          <div class="p-5 text-black text-center">
+            <h2><mark>Gallery</mark></h2> 
+          </div>
+            
+          <section>
+          <button type="button" class="btn btn-dark d-grid gap-2 col-6 mx-auto mb-5 shadow" data-bs-toggle="modal" data-bs-target="#Modal">
+            <strong>Click before Proceeding</strong>
+          </button>
+          <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="Modalwarning" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="Modalwarning"><strong>Warning!</strong></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  This page contains spoilers for the 2016 mini-series Erased.
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="https://m.media-amazon.com/images/M/MV5BMTdjNmZmYzctNWVjNC00MmI2LTk0NDUtMzkzYmVjMDg4ODI1XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
-            </div>
+          </div>
+            </section>
+            
+            <section class="content mb-5">
+            <h4 class="text-center mt-2"> Color of Evil \ Color of Innocence </h4>
+           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container-sm">
+              <div class="carousel-item active">
+                <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
               <div class="carousel-item">
-              <img src="https://i0.wp.com/drunkenanimeblog.com/wp-content/uploads/2017/07/03-6.jpg?resize=640%2C359&ssl=1" class="d-block w-75 p-3 mx-auto" alt="...">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTdjNmZmYzctNWVjNC00MmI2LTk0NDUtMzkzYmVjMDg4ODI1XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+                <div class="carousel-item">
+                <img src="https://static.conciergeriedugeek.fr/wp-content/uploads/2018/07/Erased2.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://nefariousreviews.files.wordpress.com/2016/03/erased-abuse-2.jpg?w=810" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i0.wp.com/wrongeverytime.com/wp-content/uploads/2016/03/HorribleSubs-Boku-dake-ga-Inai-Machi-10-720p.mkv_snapshot_14.15_2016.03.10_13.35.49.jpg?resize=768%2C432&ssl=1" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+                  <div class="carousel-item">
+                <img src="https://www.funcurve.com/wp-content/uploads/ERASED-11-720x405.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="https://nefariousreviews.files.wordpress.com/2016/03/erased-abuse-2.jpg?w=810" class="d-block w-75 p-3 mx-auto" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://i0.wp.com/wrongeverytime.com/wp-content/uploads/2016/03/HorribleSubs-Boku-dake-ga-Inai-Machi-10-720p.mkv_snapshot_14.15_2016.03.10_13.35.49.jpg?resize=768%2C432&ssl=1" class="d-block w-75 p-3 mx-auto" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
           
-           <h3 class="text-center mt-5"> Color of Innocence </h3>
-         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+            <div class="container p-3 w-75">
+             <h6> In the show, red does not necessarily mean "evil" or "innocent" directly, but relates more-so to emotional vulnerability, and the exploitation (evil) or acceptance (innocence) of it. We see red in the outfits of Sachiko, Airi, and Kayo, denoting the openness that allows Satoru to be vulnerable with each of them. The eyes of many characters flash red throughout the show, indicating high levels of emotion, whether positive or negative. </h6>
             </div>
-            <div class="carousel-item">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+            </section>
+            
+            
+            <section class="content mb-5">
+             <h4 class="text-center mt-5"> Position of Power </h4>
+           <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container-sm">
+              <div class="carousel-item active">
+                <img src="https://pm1.narvii.com/6038/e5b85201c8e40a3ef8390923746bac87cff337ab_hq.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomc.net/image/Boku%20Dake%20ga%20Inai%20Machi/Boku%20Dake%20ga%20Inai%20Machi%20-%2010%20-%20Large%2021.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.anime-evo.net/wp-content/uploads/2016/03/Boku-dake-ga-Inai-Machi-10-05.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+               <div class="carousel-item">
+                <img src="https://occ-0-1722-92.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQy9CAVbOqlbcDQuuGMjUw7D95UxV5tA4pYLLSujRLjmlg2C89Xqxs5kSIT3t6kWqq257N5SsCTEqSubm1-HZS1ageHFbvJivW-IMfhYCwK8jiml.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-          
-           <h3 class="text-center mt-5"> Eyes of Childhood </h3>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+            
+              <div class="container p-3 w-75">
+             <h6> The shows main theme of child abuse sheds light on the power dynamics between adults and children, and often employs the use of camera angles in order to reinforce this theme. Adults often loom over the children, a super-imposing presence that can either comfort, or instill fear. 
+           </h6>
             </div>
-            <div class="carousel-item">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
+              </section>
+            
+            <section class="content mb-5">
+             <h4 class="text-center mt-5"> Views of Childhood </h4>
+            <div id="carousel-3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container-sm">
+             <div class="carousel-item active">
+                <img src="https://unobtainium13.files.wordpress.com/2016/12/erased.jpg" class="d-block w-75 p-3 mx-auto" alt="youth1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.funcurve.com/wp-content/uploads/ERASED-2-720x405.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+                <div class="carousel-item">
+                <img src="https://theglorioblog.files.wordpress.com/2016/01/erased2e.png" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://pm1.narvii.com/6047/2bc0198a93469f2e4c869986cf5a0a3b297094e9_00.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700083720.jpg" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>
+                  <div class="carousel-item">
+                <img src="https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAtdZzEHtXRURM5U9Buz5Dl8aS4l1iUWyZfwvFjRMKNzz" class="d-block w-75 p-3 mx-auto" alt="...">
+              </div>     
             </div>
-            <div class="carousel-item">
-              <img src="https://preview.redd.it/pg5s1asjf5771.png?width=1000&format=png&auto=webp&v=enabled&s=08e7ea6b8a8da00a3e7d802b8323eee9fd0f4946" class="d-block w-75 p-3 mx-auto" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-              
-             <div class="mt-5 p-3 bg-dark text-white text-center">
-          <p>Alexander Chartrand - 2023</p>
-        </div>
+            
+              <div class="container p-3 w-75">
+             <h6> Another brilliant cinematographic feat of the show is the use of differing aspect ratios depending on whether Satoru is a child or adult. When Satoru returns to the past, the show begins to use the 2.35:1 aspect ratio, adding a set of black bars to the top and bottom of the screen. This change reflects Satoru’s now smaller body, as well as the claustrophobia and helplessness he feels as a child. </h6>
+            </div>
+            </section>
+                
+            <a class="btn btn-dark d-grid gap-2 col-6 mx-auto my-5 shadow" href="#" role="button"><h4>↑</h4></a>
+            
+               <div class="mt-5 p-3 bg-dark text-white text-center">
+            <p>Alexander Chartrand - 2023</p>
+          </div>
 </body>
 </html>
